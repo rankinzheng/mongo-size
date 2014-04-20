@@ -1,0 +1,25 @@
+{
+    "name": "mongo-size",
+    "version": "0.0.1",
+    "description": "Do you want know any million documents in mongodb that how many bytes ? Use this tools,you only need define the mongodb document schema JSON. Let it help you calculating.",
+    "main": "index.js",
+    "scripts": {
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rankinzheng/mongo-size.git"
+    },
+    "author": "rankinzheng",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/rankinzheng/mongo-size/issues"
+    },
+    "homepage": "https://github.com/rankinzheng/mongo-size",
+    "dependencies": {
+        "commander": "2.2.0",
+        "underscore": "1.6.0",
+        "pretty-bytes": "0.1.0",
+        "jsonpretty": "0.0.1"
+    }
+}
