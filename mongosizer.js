@@ -58,6 +58,7 @@ if (program.filepath) {
             rj[key] = trj;
             var _size = each_field(schema, trj);
             trj["_size"] = prettyBytes(_size * million * 1000000);
+            trj["_dsize"] = prettyBytes(_size);
             trj["_row_million"] = million;
         });
 
